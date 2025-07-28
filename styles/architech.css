@@ -132,7 +132,7 @@ main>section{
 .features{
     display: flex;
     gap: 140px;
-    margin: 10px 30px;
+    margin: 100px 30px;
 }
 .feature-card-title{
     font-size: 1.25rem;
@@ -158,6 +158,10 @@ main>section{
     max-width: 100%;
 }
 /* some fact related style */
+.fact-text{
+    justify-items: center;
+    text-align: center;
+}
 .facts-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -185,6 +189,7 @@ main>section{
     margin-top: 24px;
     margin-bottom: 100px;
 }
+
 /* sponsor related styles */
 .sponsor-info{
     max-width: 542px;
@@ -228,7 +233,7 @@ main>section{
     #experience-badge{
         margin: 20px;
     }
-    
+
   /* medium device related responsive */
 
 @media screen and (min-width:576px) and (max-width:992px) {
